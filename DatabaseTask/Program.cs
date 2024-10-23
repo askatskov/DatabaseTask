@@ -12,7 +12,7 @@ builder.Services.AddDbContext<DatabaseTaskDbContext>(options =>
 //void ConfigureServices(IServiceCollection services)
 //{
 //    services.AddDbContext<DatabaseTaskDbContext>(options =>
-//        options.UseSqlServer(Microsoft.Extensions.Configuration.GetConnectionString("databasename")));
+//        options.UseSqlServer(Microsoft.Extensions.Configuration.GetConnectionString("DatabaseTask")));
 //}
 
 var app = builder.Build();

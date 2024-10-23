@@ -14,14 +14,5 @@ namespace DatabaseTask.Core.Domain
         public Guid OrderID { get; set; }
         public string OrderDate { get; set; }
         public string TotalAmount { get; set; }
-
-        [ForeignKey("CustomerID")]
-        public Customer Customer { get; set; }
-
-        [ForeignKey("EmployeeID")]
-        public Employee Employee { get; set; }
-
-        [ForeignKey("ProductID")]
-        public Product Product { get; set; }
     }
 }
